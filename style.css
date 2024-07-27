@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+  }
+  
+  .main {
+    background: linear-gradient(white, pink);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    width: 350px;
+    height: 530px;
+    background: linear-gradient(pink, rgb(211, 207, 207));
+    color: #bf279f;
+    position: relative;
+  }
+  
+  .icon-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+  
+  .icon-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px black, -1px -1px 8px rgb(0, 0, 0);
+  }
+  
+  #img {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #img img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 7px solid white;
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  #img h6 {
+    margin-top: 15px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #img p {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .bottom {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #myProgressBar {
+    width: 70%;
+    padding: 20px 0;
+    cursor: pointer;
+    outline:none;
+  }
+  
+  #icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+  
+  #icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 70px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px black, -1px -1px 8px rgb(0, 0, 0);
+  }
+  
+  #icons #play{
+      font-size: 2rem;
+      width: 60px;
+      height: 60px;
+  }
+  
