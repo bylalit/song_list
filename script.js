@@ -120,7 +120,7 @@ document.getElementById("previos").addEventListener("click", () =>{
     }else{
         songIndex -= 1;
     }
-    audio.src = `songImg/${songIndex + 1}.mp3`;
+    audio.src = songs[songIndex].songPath;
     audio.play();
     songTitle.innerText = songs[songIndex].songName;
     artist.src = songs[songIndex].artist;
