@@ -60,7 +60,7 @@
   object-fit: cover;
 }
 
-/* #img h6 {
+#img h6 {
   margin-top: 15px;
   font-size: 2rem;
   text-transform: uppercase;
@@ -80,7 +80,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-} */
+}
 
 #myProgressBar {
   width: 70%;
