@@ -5,7 +5,7 @@
   font-family: monospace;
 }
 
-.main {
+/* .main {
   background: linear-gradient(white, pink);
   width: 100vw;
   height: 100vh;
@@ -19,7 +19,7 @@
   background: linear-gradient(pink, rgb(211, 207, 207));
   color: #bf279f;
   position: relative;
-}
+} */
 
 .icon-top {
   display: flex;
