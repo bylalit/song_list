@@ -9,24 +9,24 @@ let songIndex = 0;
 
 
 let songs = [
-    // {
-    //     songName: "Agar Tum Saath Ho",
-    //     songPath: "songAsates/1.mp3",
-    //     artist: "songImg/Arijit.jpeg",
-    //     singerName: "Arijit Sing"
-    // },
-    // {
-    //     songName: "Taaron Ke Sheher",
-    //     songPath: "songAsates/2.mp3",
-    //     artist: "songImg/Neha.jpeg",
-    //     singerName: "Neha Kakkar"
-    // },
-    // {
-    //     songName: "Dil Galti Kar Baitha Hai",
-    //     songPath: "songAsates/3.mp3",
-    //     artist: "songImg/Jubin.jpeg",
-    //     singerName: "Jubin Nautiyal"
-    // },
+    {
+        songName: "Agar Tum Saath Ho",
+        songPath: "songAsates/1.mp3",
+        artist: "songImg/Arijit.jpeg",
+        singerName: "Arijit Sing"
+    },
+    {
+        songName: "Taaron Ke Sheher",
+        songPath: "songAsates/2.mp3",
+        artist: "songImg/Neha.jpeg",
+        singerName: "Neha Kakkar"
+    },
+    {
+        songName: "Dil Galti Kar Baitha Hai",
+        songPath: "songAsates/3.mp3",
+        artist: "songImg/Jubin.jpeg",
+        singerName: "Jubin Nautiyal"
+    },
     {
         songName: "Pehli Dafa",
         songPath: "songAsates/4.mp3",
