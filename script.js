@@ -113,17 +113,17 @@ document.getElementById("next").addEventListener("click", () =>{
     masterPlay.classList.add("fa-pause");
 });
 
-// document.getElementById("previos").addEventListener("click", () =>{
-//     if(songIndex <= 0){
-//         songIndex = 0;
+document.getElementById("previos").addEventListener("click", () =>{
+    if(songIndex <= 0){
+        songIndex = 0;
        
-//     }else{
-//         songIndex -= 1;
-//     }
-//     audio.src = songs[songIndex].songPath;
-//     audio.play();
-//     songTitle.innerText = songs[songIndex].songName;
-//     artist.src = songs[songIndex].artist;
-//     masterPlay.classList.remove("fa-play");
-//     masterPlay.classList.add("fa-pause");
-// });
+    }else{
+        songIndex -= 1;
+    }
+    audio.src = songs[songIndex].songPath;
+    audio.play();
+    songTitle.innerText = songs[songIndex].songName;
+    artist.src = songs[songIndex].artist;
+    masterPlay.classList.remove("fa-play");
+    masterPlay.classList.add("fa-pause");
+});
