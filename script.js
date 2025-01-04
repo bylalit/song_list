@@ -82,19 +82,19 @@ myProgressBar.addEventListener("change", () =>{
     audio.currentTime = myProgressBar.value * audio.duration / 100;
 });
 
-// masterPlay.addEventListener("click", ()=>{
-//     if(palyed == true){
-//         audio.play();
-//         masterPlay.classList.remove("fa-play");
-//         masterPlay.classList.add("fa-pause");
-//         palyed = false;
-//     }else{
-//         audio.pause();
-//         masterPlay.classList.add("fa-pause");
-//         masterPlay.classList.add("fa-play");
-//         palyed = true;
-//     }
-// });
+masterPlay.addEventListener("click", ()=>{
+    if(palyed == true){
+        audio.play();
+        masterPlay.classList.remove("fa-play");
+        masterPlay.classList.add("fa-pause");
+        palyed = false;
+    }else{
+        audio.pause();
+        masterPlay.classList.add("fa-pause");
+        masterPlay.classList.add("fa-play");
+        palyed = true;
+    }
+});
 
 
 document.getElementById("next").addEventListener("click", () =>{
