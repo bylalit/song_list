@@ -39,36 +39,36 @@ let songs = [
         artist: "songImg/Arijit.jpeg",
         singerName: "Arijit Sing"
     },
-    // {
-    //     songName: "Suniyan Suniyan",
-    //     songPath: "songAsates/6.mp3",
-    //     artist: "songImg/Suniya.jpeg",
-    //     singerName: "Siddharth Koli"
-    // },
-    // {
-    //     songName: "Vhalam Avon Ne",
-    //     songPath: "songAsates/7.mp3",
-    //     artist: "songImg/Valam.jpeg",
-    //     singerName: "Jigardan Gadhvi"
-    // },
-    // {
-    //     songName: "Lofi Love",
-    //     songPath: "songAsates/8.mp3",
-    //     artist: "songImg/Lofi.jpeg",
-    //     singerName: "Sourav Joshi"
-    // },
-    // {
-    //     songName: "Mahiye Jinna Sohna",
-    //     songPath: "songAsates/9.mp3",
-    //     artist: "songImg/Darshan.jpeg",
-    //     singerName: "Darshan Raval"
-    // },
-    // {
-    //     songName: "Le Aaunga",
-    //     songPath: "songAsates/10.mp3",
-    //     artist: "songImg/Arijit.jpeg",
-    //     singerName: "Arijit Sing"
-    // },
+    {
+        songName: "Suniyan Suniyan",
+        songPath: "songAsates/6.mp3",
+        artist: "songImg/Suniya.jpeg",
+        singerName: "Siddharth Koli"
+    },
+    {
+        songName: "Vhalam Avon Ne",
+        songPath: "songAsates/7.mp3",
+        artist: "songImg/Valam.jpeg",
+        singerName: "Jigardan Gadhvi"
+    },
+    {
+        songName: "Lofi Love",
+        songPath: "songAsates/8.mp3",
+        artist: "songImg/Lofi.jpeg",
+        singerName: "Sourav Joshi"
+    },
+    {
+        songName: "Mahiye Jinna Sohna",
+        songPath: "songAsates/9.mp3",
+        artist: "songImg/Darshan.jpeg",
+        singerName: "Darshan Raval"
+    },
+    {
+        songName: "Le Aaunga",
+        songPath: "songAsates/10.mp3",
+        artist: "songImg/Arijit.jpeg",
+        singerName: "Arijit Sing"
+    },
 ]
 
 audio.addEventListener("timeupdate", ()=>{
