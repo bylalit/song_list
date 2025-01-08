@@ -97,21 +97,21 @@ masterPlay.addEventListener("click", ()=>{
 });
 
 
-// document.getElementById("next").addEventListener("click", () =>{
-//     if(songIndex >= 9){
-//         songIndex = 0;
+document.getElementById("next").addEventListener("click", () =>{
+    if(songIndex >= 9){
+        songIndex = 0;
        
-//     }else{
-//         songIndex += 1;
-//     }
-//     audio.src = songs[songIndex].songPath;
-//     songTitle.innerText = songs[songIndex].songName;
-//     singerName.innerText = songs[songIndex].singerName;
-//     artist.src = songs[songIndex].artist;
-//     audio.play();
-//     masterPlay.classList.remove("fa-play");
-//     masterPlay.classList.add("fa-pause");
-// });
+    }else{
+        songIndex += 1;
+    }
+    audio.src = songs[songIndex].songPath;
+    songTitle.innerText = songs[songIndex].songName;
+    singerName.innerText = songs[songIndex].singerName;
+    artist.src = songs[songIndex].artist;
+    audio.play();
+    masterPlay.classList.remove("fa-play");
+    masterPlay.classList.add("fa-pause");
+});
 
 document.getElementById("previos").addEventListener("click", () =>{
     if(songIndex <= 0){
