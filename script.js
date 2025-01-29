@@ -33,30 +33,30 @@ let songs = [
         artist: "songImg/Atif.jpeg",
         singerName: "Atif Aslam"
     },
-    {
-        songName: "O Maahi",
-        songPath: "songAsates/5.mp3",
-        artist: "songImg/Arijit.jpeg",
-        singerName: "Arijit Sing"
-    },
-    {
-        songName: "Suniyan Suniyan",
-        songPath: "songAsates/6.mp3",
-        artist: "songImg/Suniya.jpeg",
-        singerName: "Siddharth Koli"
-    },
-    {
-        songName: "Vhalam Avon Ne",
-        songPath: "songAsates/7.mp3",
-        artist: "songImg/Valam.jpeg",
-        singerName: "Jigardan Gadhvi"
-    },
-    {
-        songName: "Lofi Love",
-        songPath: "songAsates/8.mp3",
-        artist: "songImg/Lofi.jpeg",
-        singerName: "Sourav Joshi"
-    },
+    // {
+    //     songName: "O Maahi",
+    //     songPath: "songAsates/5.mp3",
+    //     artist: "songImg/Arijit.jpeg",
+    //     singerName: "Arijit Sing"
+    // },
+    // {
+    //     songName: "Suniyan Suniyan",
+    //     songPath: "songAsates/6.mp3",
+    //     artist: "songImg/Suniya.jpeg",
+    //     singerName: "Siddharth Koli"
+    // },
+    // {
+    //     songName: "Vhalam Avon Ne",
+    //     songPath: "songAsates/7.mp3",
+    //     artist: "songImg/Valam.jpeg",
+    //     singerName: "Jigardan Gadhvi"
+    // },
+    // {
+    //     songName: "Lofi Love",
+    //     songPath: "songAsates/8.mp3",
+    //     artist: "songImg/Lofi.jpeg",
+    //     singerName: "Sourav Joshi"
+    // },
     {
         songName: "Mahiye Jinna Sohna",
         songPath: "songAsates/9.mp3",
