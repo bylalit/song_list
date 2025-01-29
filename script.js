@@ -1,11 +1,11 @@
-let masterPlay = document.getElementById("play");
-let audio = new Audio("songAsates/1.mp3")
-let myProgressBar = document.getElementById("myProgressBar");
-let palyed = true;
-let songTitle = document.getElementById("songTitle");
-let artist = document.getElementById("artist");
-let singerName = document.getElementById("singer-name");
-let songIndex = 0;
+// let masterPlay = document.getElementById("play");
+// let audio = new Audio("songAsates/1.mp3")
+// let myProgressBar = document.getElementById("myProgressBar");
+// let palyed = true;
+// let songTitle = document.getElementById("songTitle");
+// let artist = document.getElementById("artist");
+// let singerName = document.getElementById("singer-name");
+// let songIndex = 0;
 
 
 let songs = [
